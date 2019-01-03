@@ -23,7 +23,7 @@ function draw() {
     fireworks[i].show();
     if (fireworks[i].done()) fireworks.splice(i, 1);
   }
-  console.log(fireworks.length);
+  //console.log(fireworks.length);
 }
 
 function Particle(x, y, firework, hu) {

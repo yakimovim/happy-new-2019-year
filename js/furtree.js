@@ -48,7 +48,7 @@
   }
 
   function tree(args) {
-    sky.setTransform();
+    sky.setTransform(1, 0, 0, 1, 0, 0);
     sky.beginPath();
     sky.strokeStyle = args.color;
     sky.lineWidth = args.width;
@@ -140,7 +140,7 @@
   function text() {
     const txt = "Happy New 2019 Year!";
 
-    sky.setTransform();
+    sky.setTransform(1, 0, 0, 1, 0, 0);
 
     sky.font = "bold 70px Georgia";
     sky.fillStyle = colors[rand(colors.length)];
